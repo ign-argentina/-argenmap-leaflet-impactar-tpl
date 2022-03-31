@@ -10,11 +10,11 @@
     "isActive": false
   },
   "metaTags": {
-    "title": "IGN - Argenmap",
-    "description": "Visor de mapas desarrollado por el Instituto Geográfico Nacional",
+    "title": "Gobiernos locales",
+    "description": "Visor de gobiernos locales",
     "image": "/src/styles/images/argenmap.png"
   },
-  "analytics_ids": ["G-D28Z64ZEDD", "UA-136146579-6"],
+  "analytics_ids": [],
   "excluded_plugins": ["minimap"],
   "mapConfig": {
     "center": {
@@ -40,7 +40,7 @@
     "color_focus": "#008dc9",
     "background_color": "rgba(255, 255, 255, 0.7)",
     "strings": {
-      "placeholder": "Buscar lugar..."
+      "placeholder": "Buscar localidad..."
     }
   },
   "geocoder":{
@@ -70,7 +70,7 @@
     "iconBar":"#4f4f4f"
     },
   "logo": {
-    "title":"Instituto Geográfico Nacional",
+    "title":"Gobiernos locales",
     "src": "src/config/styles/images/logo3.png",
     "height": "",
     "width": "",
@@ -80,7 +80,7 @@
     "miniWidth": "",
     "ministyle": "filter: drop-shadow(1px 1px 1px #103847); width: 174px;"
   },
-  "title": "IGN - ARGENMAP",
+  "title": "Gobiernos locales",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
   "favicon": "",
   "geoprocessing": {
