@@ -108,6 +108,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 70,
       "nombre": "Límites, Catastro y Planeamiento Urbano",
@@ -128,6 +133,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 80,
       "nombre": "Infraestructura y equipamiento urbano",
@@ -150,6 +160,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 85,
       "nombre": "Educación y Salud",
@@ -167,6 +182,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 90,
       "nombre": "Cultura, Turismo y Deporte",
@@ -187,6 +207,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 95,
       "nombre": "Gestión ambiental",
@@ -205,6 +230,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 100,
       "nombre": "Seguridad y Protección Civil",
@@ -222,6 +252,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 105,
       "nombre": "Transporte y movilidad urbana",
@@ -245,6 +280,11 @@
       ]
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 110,
       "nombre": "Imágenes satelitales CONAE",
@@ -286,6 +326,11 @@
       "feature_info_format": "application/json"
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 120,
       "nombre": "Fotografías aéreas",
@@ -297,6 +342,11 @@
       "host": "https://wms.ign.gob.ar/geoserver/fotogrametria/wms"
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 125,
       "nombre": "Modelos digitales de elevaciones",
@@ -374,6 +424,11 @@
       "host": "https://imagenes.ign.gob.ar/geoserver/atlas_jujuy_100k"
     },
     {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
       "type": "wms",
       "peso": 130,
       "nombre": "Cartografía",
@@ -383,6 +438,22 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms"
+    },
+    {
+      "tab": {
+        "id": "Servicios",
+        "searcheable": true,
+        "content": "Servicios"
+      },
+      "type": "wms",
+      "peso": 500,
+      "nombre": "INDEC",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "indec",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://geoservicios.indec.gob.ar/geoserver/wms"
     }
   ],
   "layers_joins": [
