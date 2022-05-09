@@ -64,9 +64,9 @@
     "menuBackground": "#37bbed",
     "activeLayer": "#33b560",
     "textMenu":"white",
-    "textMenuStyle":"text-shadow: #103847 1px 1px 15px",
-    "textLegendMenu":"#dddddd",
-    "textLegendMenuStyle":"text-shadow: #103847 1px 1px 15px",
+    "textMenuStyle":"",
+    "textLegendMenu":"#fafafa",
+    "textLegendMenuStyle":"",
     "iconBar":"#4f4f4f"
     },
   "logo": {
@@ -82,7 +82,7 @@
   },
   "title": "Gobiernos locales",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
-  "favicon": "",
+  "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": false,
     "availableProcesses": [
