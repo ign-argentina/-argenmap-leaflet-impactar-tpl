@@ -438,22 +438,6 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms"
-    },
-    {
-      "tab": {
-        "id": "Servicios",
-        "searcheable": true,
-        "content": "Servicios"
-      },
-      "type": "wms",
-      "peso": 500,
-      "nombre": "INDEC",
-      "short_abstract": "",
-      "class": "",
-      "seccion": "indec",
-      "servicio": "wms",
-      "version": "1.3.0",
-      "host": "https://geoservicios.indec.gob.ar/geoserver/wms"
     }
   ],
   "layers_joins": [
