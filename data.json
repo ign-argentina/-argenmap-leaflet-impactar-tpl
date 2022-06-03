@@ -295,7 +295,8 @@
       "version": "1.3.0",
       "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
       "allowed_layers": [
-        "Centro Pampeana",
+        "CentroPampeana",
+        "Cuyo",
         "NEA",
         "NOA",
         "Patagonia",
@@ -438,9 +439,92 @@
       "servicio": "wms",
       "version": "1.3.0",
       "host": "https://wms.ign.gob.ar/geoserver/cartografia/wms"
+    },
+    {
+      "tab": {
+        "id": "Capas",
+        "searcheable": true,
+        "content": "Capas"
+      },
+      "type": "wms",
+      "peso": 130,
+      "nombre": "Imágenes satelitales CONAE",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "conae",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "allowed_layers": [
+        "CentroPampeana_huellas_localidades",
+        "Cuyo_huellas_localidades",
+        "NEA_huellas_localidades",
+        "NOA_huellas_localidades",
+        "Patagonia_huellas_localidades"
+      ]
     }
   ],
   "layers_joins": [
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "CentroPampeana",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "CentroPampeana_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "Cuyo",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "Cuyo_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "NEA",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "NEA_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "NOA",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "NOA_huellas_localidades"
+        }
+      ]
+    },
+    {
+      "seccion": "conae",
+      "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+      "layer": "Patagonia",
+      "joins": [
+        {
+          "seccion": "conae",
+          "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
+          "layer": "Patagonia_huellas_localidades"
+        }
+      ]
+    },
     {
       "seccion": "fotogrametria",
       "host": "https://imagenes.ign.gob.ar/geoserver/mosaicos_vuelos",
