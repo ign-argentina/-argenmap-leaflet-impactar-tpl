@@ -111,6 +111,6 @@
     "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}.png",
     "addTo": ["argenmap"],
     "icon": "src/styles/images/mountains.svg",
-    "switchLabel": "Agregar sombra de montaña"
+    "switchLabel": "Agregar sombra de montaña Esri"
   }
 }
