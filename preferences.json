@@ -53,7 +53,7 @@
     "key": ""
   }, 
   "referencias": {
-    "show": true,
+    "show": false,
     "icon": "src/config/styles/images/referencias.png",
     "width":"25px",
     "height":"31px"
@@ -109,7 +109,8 @@
       {
         "name": "Cota",
         "geoprocess": "waterRise",
-        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0"
+        "layer": "geoprocesos:alos_unificado",
+        "baseUrl": "https://imagenes.ign.gob.ar/geoserver/ows?service=WPS&version=1.0.0"
       }
     ]
   },
