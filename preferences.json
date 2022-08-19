@@ -74,11 +74,11 @@
     "src": "src/config/styles/images/logo.png",
     "height": "",
     "width": "",
-    "style": "/*filter: drop-shadow(1px 1px 1px #103847);*/ width: 278px;",
-    "srcLogoMini": "",
+    "style": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/",
+    "srcLogoMini": "src/config/styles/images/logo.png",
     "miniHeight": "",
     "miniWidth": "",
-    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847);*/ width: 278px;"
+    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/"
   },
   "title": "Gobiernos locales",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
