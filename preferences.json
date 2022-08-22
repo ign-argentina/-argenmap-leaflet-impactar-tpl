@@ -80,14 +80,17 @@
     "miniWidth": "",
     "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/"
   },
+  "logoText": {
+    "content": "Visor Gestión Local"
+  },
   "title": "Gobiernos locales",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
   "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": true,
-    "buttonTitle": "Curvas de nivel",
+    "buttonTitle": "Geoprocesos",
     "buttonIcon": "fa fa-cog",
-    "dialogTitle": "Curvas de nivel",
+    "dialogTitle": "Geoprocesos",
     "strings": {
       "bounds": "Areas a procesar"
     },
@@ -97,6 +100,7 @@
         "geoprocess": "contour",
         "baseUrl": "https://imagenes.ign.gob.ar/geoserver/geoprocesos/ows?service=WPS&version=1.0.0",
         "layer": "alos_unificado",
+        "namePrefix": "curvas_de_nivel_",
         "styles": {
           "line_color": "#e0b44c",
           "line_weight": 0.8,
@@ -109,8 +113,14 @@
       {
         "name": "Cota",
         "geoprocess": "waterRise",
+        "namePrefix": "cota_",
         "layer": "geoprocesos:alos_unificado",
         "baseUrl": "https://imagenes.ign.gob.ar/geoserver/ows?service=WPS&version=1.0.0"
+      },
+      {
+        "name": "Área de influencia",
+        "geoprocess": "buffer",
+        "namePrefix": "area_de_influencia_"
       }
     ]
   },
