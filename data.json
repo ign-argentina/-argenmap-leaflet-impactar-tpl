@@ -311,18 +311,21 @@
       "version": "1.3.0",
       "host": "https://geotematico01.conae.gov.ar/geoserver/Localidades/wms",
       "allowed_layers": [
-        "CentroPampeana",
+        "Centro",
         "Cuyo",
         "NEA",
         "NOA",
-        "Patagonia",
-        "Terrritorio completo",
-        "CentroPampeana_huellas_localidades",
-        "Cuyo_huellas_localidades",
-        "NEA_huellas_localidades",
-        "NOA_huellas_localidades",
-        "Patagonia_huellas_localidades"
-      ]
+        "PatagoniaNorte",
+        "PatagoniaSur"
+      ],
+      "icons": {
+        "Centro": "src/config/default/styles/images/legends/satelite.svg",
+        "Cuyo": "src/config/default/styles/images/legends/satelite.svg",
+        "NEA": "src/config/default/styles/images/legends/satelite.svg",
+        "NOA": "src/config/default/styles/images/legends/satelite.svg",
+        "PatagoniaNorte": "src/config/default/styles/images/legends/satelite.svg",
+        "PatagoniaSur": "src/config/default/styles/images/legends/satelite.svg"
+      }
     },
     {
       "type": "wmts",
