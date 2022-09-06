@@ -581,5 +581,8 @@
       ]
     }
   ],
-  "template": "ign-geoportal-basic"
+  "template": "ign-geoportal-basic",
+  "template_feature_info_exception": [
+    "gid"
+  ]
 }
