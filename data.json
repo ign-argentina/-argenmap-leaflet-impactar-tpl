@@ -207,7 +207,10 @@
       "seccion": "educacion-salud",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapamuni.ign.gob.ar/geoserver/educacion_salud/wms"
+      "host": "https://mapamuni.ign.gob.ar/geoserver/educacion_salud/wms",
+      "icons": {
+        "puntos_de_ciencia_y_educacion_AL295": "src/config/styles/images/legends/centro_cientifico_gl.svg"
+      }
     },
     {
       "tab": {
