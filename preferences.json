@@ -10,7 +10,7 @@
     "isActive": false
   },
   "metaTags": {
-    "title": "Gobiernos locales",
+    "title": "Mapa para la Gestión Local",
     "description": "Visor de gobiernos locales",
     "image": "/src/styles/images/argenmap.png"
   },
@@ -70,7 +70,7 @@
     "iconBar":"#4f4f4f"
     },
   "logo": {
-    "title":"Gobiernos locales",
+    "title":"Programa ImpaCT.AR",
     "src": "src/config/styles/images/logo.png",
     "height": "",
     "width": "",
@@ -81,9 +81,9 @@
     "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/"
   },
   "logoText": {
-    "content": "Visor Gestión Local"
+    "content": "Mapa para la Gestión Local"
   },
-  "title": "Gobiernos locales",
+  "title": "Mapa para la Gestión Local",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
   "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
