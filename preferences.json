@@ -70,7 +70,7 @@
     "iconBar":"#4f4f4f"
     },
   "logo": {
-    "title":"Programa ImpaCT.AR",
+    "title":"abrir sitio web del Estado Nacional",
     "src": "src/config/styles/images/logo.png",
     "height": "",
     "width": "",
@@ -78,10 +78,13 @@
     "srcLogoMini": "src/config/styles/images/logo.png",
     "miniHeight": "",
     "miniWidth": "",
-    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/"
+    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/",
+    "link": "https://www.argentina.gob.ar/"
   },
   "logoText": {
-    "content": "Mapa para la Gestión Local"
+    "content": "Mapa para la Gestión Local",
+    "title":"Programa ImpaCT.AR",
+    "link": "https://www.argentina.gob.ar/ciencia/sact/impactar"
   },
   "title": "Mapa para la Gestión Local",
   "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
