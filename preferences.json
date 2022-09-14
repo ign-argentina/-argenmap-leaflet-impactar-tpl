@@ -14,7 +14,7 @@
     "description": "Visor de gobiernos locales",
     "image": "/src/styles/images/argenmap.png"
   },
-  "analytics_ids": [],
+  "analytics_ids": ["G-GV0TV6TZYB"],
   "excluded_plugins": ["minimap"],
   "mapConfig": {
     "center": {
