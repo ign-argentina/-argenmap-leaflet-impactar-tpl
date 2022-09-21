@@ -144,5 +144,8 @@
     "basemap_min_zoom": "Zoom mínimo de ",
     "basemap_max_zoom": " y máximo de ",
     "basemap_legend_button_text": "Ver leyenda del mapa"
+  },
+  "login": {
+    "isActive": true
   }
 }
