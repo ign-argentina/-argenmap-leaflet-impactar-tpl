@@ -84,10 +84,10 @@
   "logoText": {
     "content": "Mapa para la Gestión Local",
     "title":"Programa ImpaCT.AR",
-    "link": "https://www.argentina.gob.ar/ciencia/sact/impactar"
+    "link": "https://mapamuni.ign.gob.ar"
   },
   "title": "Mapa para la Gestión Local",
-  "website": "https://www.argentina.gob.ar/ciencia/sact/impactar",
+  "website": "https://mapamuni.ign.gob.ar",
   "favicon": "src/config/styles/images/favicon.ico",
   "geoprocessing": {
     "isActive": true,
