@@ -146,6 +146,7 @@
     "basemap_legend_button_text": "Ver leyenda del mapa"
   },
   "login": {
-    "isActive": true
+    "isActive": true,
+    "api": "https://geoportal.ign.gob.ar/api/municipios/"
   }
 }
