@@ -73,12 +73,12 @@
     "title":"abrir sitio web del Estado Nacional",
     "src": "src/config/styles/images/logo.png",
     "height": "",
-    "width": "",
+    "width": "170px",
     "style": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/",
     "srcLogoMini": "src/config/styles/images/logo.png",
     "miniHeight": "",
     "miniWidth": "",
-    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847); width: 278px;*/",
+    "ministyle": "/*filter: drop-shadow(1px 1px 1px #103847);*/ width: 150px;",
     "link": "https://www.argentina.gob.ar/"
   },
   "logoText": {
